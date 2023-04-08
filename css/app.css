@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+    font-size: 16px;
+    line-height: 1.4;
+    }
+    
+    img {
+    max-width: 100%;
+    }
+    
+    header{
+    /* background-color: rgb(255, 255, 255); */
+    padding: 15px;
+    box-shadow: 0 0 20px #00000033;
+    }
+    .v-center {
+        align-items: center;
+
+    }
+    .container {
+    
+        width: calc(100% - 300px );
+        
+        margin: 0 auto;
+        font-size: 22px;
+        ;
+    
+    
+    }
+    
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+     }
+    
+     .logo{
+        flex-basis: 20%;
+     }
+    
+     nav {flex-basis: 80%};
+    
+     .logo a{
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #222;
+    }
+    
+    nav ul{list-style: none;display: flex;justify-content: flex-end;}
+    nav ul li{ }
+    nav ul li a{
+        color: #222;
+        font-size: 24px;
+        text-decoration: none;
+        padding: 12px 20px;
+        display: inline-block;
+        transition: border 0.4s linear;
+        border-bottom: 2px solid #92575700;
+     }
+    
+    
+    nav ul li a:hover{ 
+        
+        border-bottom: 2px solid #222;
+    
+    }
+
+    .heroBanner{ 
+        background: #222 url(../images/Black.png);
+        background-repeat: no-repeat;
+        min-height: 89vh;
+        
+    }
+     
+    .column-1-2{
+        flex-basis: 50%;
+    }
+
+    .heroBanner h1{
+font-size: 40px;
+color: #fff;
+
+    }
